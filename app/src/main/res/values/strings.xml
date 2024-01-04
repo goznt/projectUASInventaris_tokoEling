@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectIventaris</string>
+
+    <string-array name="StatusPenjualan">
+        <item>Sudah Dijual</item>
+        <item>Belum Dijual</item>
+    </string-array>
+</resources>
