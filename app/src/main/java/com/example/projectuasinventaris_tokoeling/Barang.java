@@ -1,7 +1,17 @@
 package com.example.projectuasinventaris_tokoeling;
 
 public class Barang  {
-    public Barang(String kodeBarang, String dummyBarang, String s, String imagePath) {
+
+
+    private String KodeBarang, NamaBarang, StatusPenjualan, Path;
+    private int HargaBarang;
+
+    public Barang(String kodeBarang, String dummyBarang, String s, String path) {
+        KodeBarang = kodeBarang;
+        NamaBarang = dummyBarang;
+        StatusPenjualan = s;
+        Path=path;
+
     }
 
     public String getNamaBarang() {
@@ -36,8 +46,6 @@ public class Barang  {
         HargaBarang = hargaBarang;
     }
 
-    private String NamaBarang, KodeBarang, StatusPenjualan;
-    private int HargaBarang;
 
     public int getNama() {
         return 0;

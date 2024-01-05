@@ -21,6 +21,21 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.298" />
 
+    <EditText
+        android:id="@+id/editTextOutputHargaBarang"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint=" Harga Barang"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.426" />
+
     <Button
         android:id="@+id/buttonCariBarang"
         android:layout_width="114dp"
@@ -68,7 +83,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.565"
+        app:layout_constraintVertical_bias="0.699"
         tools:srcCompat="@tools:sample/avatars" />
 
     <Button
@@ -92,7 +107,7 @@
         app:layout_constraintHorizontal_bias="0.657"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.771" />
+        app:layout_constraintVertical_bias="0.859" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
